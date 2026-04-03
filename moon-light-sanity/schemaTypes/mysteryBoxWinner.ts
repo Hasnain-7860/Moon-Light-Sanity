@@ -30,16 +30,10 @@ export default defineType({
       type: 'string',
     }),
 
-    defineField({
-      name: 'personal',
-      title: 'Personal',
-      type: 'number',
-      initialValue: 0,
-    }),
 
     defineField({
-      name: 'partner',
-      title: 'Partner',
+      name: 'personalPartner',
+      title: 'Personal Partner',
       type: 'number',
       initialValue: 0,
     }),
@@ -47,6 +41,12 @@ export default defineType({
     defineField({
       name: 'totalTeam',
       title: 'Total Team',
+      type: 'number',
+      initialValue: 0,
+    }),
+    defineField({
+      name: 'myTeam',
+      title: 'My Team',
       type: 'number',
       initialValue: 0,
     }),
